@@ -1,0 +1,40 @@
+{
+  "name": "depends on index ordering of dependencies",
+  "index": "index_order",
+  "requested": {
+    "first-gem": "",
+    "second-gem": "",
+    "third-gem": ""
+  },
+  "base": [],
+  "resolved": [
+    {
+      "name": "first-gem",
+      "version": "1.0.0",
+      "dependencies": [
+        {
+          "name": "second-gem",
+          "version": "1.0.0",
+          "dependencies": []
+        }
+      ]
+    },
+    {
+      "name": "second-gem",
+      "version": "1.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "third-gem",
+      "version": "0.9.0",
+      "dependencies": [
+        {
+          "name": "second-gem",
+          "version": "1.0.0",
+          "dependencies": []
+        }
+      ]
+    }
+  ],
+  "conflicts": []
+}

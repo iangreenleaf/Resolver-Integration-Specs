@@ -1,0 +1,65 @@
+{
+  "first-gem": [
+    {
+      "name": "first-gem",
+      "version": "1.0.0",
+      "dependencies": {
+        "second-gem": "= 1.0.0"
+      }
+    },
+    {
+      "name": "first-gem",
+      "version": "0.9.0",
+      "dependencies": {
+        "second-gem": "> 0"
+      }
+    }
+  ],
+  "second-gem": [
+    {
+      "name": "second-gem",
+      "version": "1.0.1",
+      "dependencies": {}
+    },
+    {
+      "name": "second-gem",
+      "version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "name": "second-gem",
+      "version": "0.0.1",
+      "dependencies": {}
+    }
+  ],
+  "third-gem": [
+    {
+      "name": "third-gem",
+      "version": "1.0.1",
+      "dependencies": {
+        "second-gem": "= 1.0.1"
+      }
+    },
+    {
+      "name": "third-gem",
+      "version": "0.9.0",
+      "dependencies": {
+        "second-gem": "> 0"
+      }
+    },
+    {
+      "name": "third-gem",
+      "version": "0.0.2",
+      "dependencies": {
+        "second-gem": "> 0"
+      }
+    },
+    {
+      "name": "third-gem",
+      "version": "0.0.1",
+      "dependencies": {
+        "second-gem": "> 0"
+      }
+    }
+  ]
+}
