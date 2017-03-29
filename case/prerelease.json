@@ -1,0 +1,16 @@
+{
+  "name": "prefers regular release to prerelease",
+  "index": "prerelease",
+  "requested": {
+    "my-gem": ""
+  },
+  "base": [],
+  "resolved": [
+    {
+      "name": "my-gem",
+      "version": "1.0.0",
+      "dependencies": []
+    }
+  ],
+  "conflicts": []
+}

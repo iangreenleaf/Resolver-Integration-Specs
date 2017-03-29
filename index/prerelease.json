@@ -1,0 +1,14 @@
+{
+  "my-gem": [
+    {
+      "name": "my-gem",
+      "version": "1.0.0",
+      "dependencies": {}
+    },
+    {
+      "name": "my-gem",
+      "version": "1.0.1a",
+      "dependencies": {}
+    }
+  ]
+}
