@@ -1,0 +1,105 @@
+{
+  "actionmailer": [
+    {
+      "name": "actionmailer",
+      "version": "3.0.1",
+      "dependencies": {
+        "mail": "~> 2.2.5"
+      }
+    },
+    {
+      "name": "actionmailer",
+      "version": "3.2.21",
+      "dependencies": {
+        "mail": "~> 2.5.4"
+      }
+    },
+    {
+      "name": "actionmailer",
+      "version": "4.2.0",
+      "dependencies": {
+        "mail": ">= 2.5.4, ~> 2.5"
+      }
+    }
+  ],
+  "capybara": [
+    {
+      "name": "capybara",
+      "version": "2.2.1",
+      "dependencies": {
+        "mime-types": ">= 1.16"
+      }
+    }
+  ],
+  "mail": [
+    {
+      "name": "mail",
+      "version": "2.2.7",
+      "dependencies": {
+        "mime-types": ">= 0"
+      }
+    },
+    {
+      "name": "mail",
+      "version": "2.5.4",
+      "dependencies": {
+        "mime-types": "~> 1.16"
+      }
+    },
+    {
+      "name": "mail",
+      "version": "2.6.3",
+      "dependencies": {
+        "mime-types": "< 3, >= 1.16"
+      }
+    }
+  ],
+  "mime-types": [
+    {
+      "name": "mime-types",
+      "version": "1.25.1",
+      "dependencies": {
+      }
+    },
+    {
+      "name": "mime-types",
+      "version": "2.4.3",
+      "dependencies": {
+      }
+    }
+  ],
+  "rails": [
+    {
+      "name": "rails",
+      "version": "3.0.1",
+      "dependencies": {
+        "actionmailer": "= 3.0.1"      }
+    },
+    {
+      "name": "rails",
+      "version": "3.0.2",
+      "dependencies": {
+        "actionmailer": "= 3.0.2"      }
+    },
+    {
+      "name": "rails",
+      "version": "3.1.2",
+      "dependencies": {
+        "actionmailer": "= 3.1.2"      }
+    },
+    {
+      "name": "rails",
+      "version": "3.2.21",
+      "dependencies": {
+        "actionmailer": "= 3.2.21"
+      }
+    },
+    {
+      "name": "rails",
+      "version": "4.2.0",
+      "dependencies": {
+        "actionmailer": "= 4.2.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "handles conflicts with stacked possibilities of same gem",
+  "index": "stacked_conflicts",
+  "requested": {
+    "rails": "~> 3.0",
+    "capybara": "~> 2.2.0"
+  },
+  "base": [],
+  "resolved": [
+    {
+      "name": "rails",
+      "version": "3.2.21",
+      "dependencies": [
+        {
+          "name": "actionmailer",
+          "version": "3.2.21",
+          "dependencies": [
+            {
+              "name": "mail",
+              "version": "2.5.4",
+              "dependencies": [
+                {
+                  "name": "mime-types",
+                  "version": "1.25.1",
+                  "dependencies": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "capybara",
+      "version": "2.2.1",
+      "dependencies": [
+        {
+          "name": "mime-types",
+          "version": "1.25.1",
+          "dependencies": []
+        }
+      ]
+    }
+  ],
+  "conflicts": []
+}
