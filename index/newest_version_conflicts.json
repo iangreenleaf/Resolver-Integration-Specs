@@ -1,0 +1,64 @@
+{
+  "my-app": [
+    {
+      "name": "my-app",
+      "version": "1.38.0",
+      "dependencies": {
+        "shared-dep": "~> 1.32.1",
+        "limiting-dep": ">= 0"
+      }
+    }
+  ],
+  "shared-dep": [
+    {
+      "name": "shared-dep",
+      "version": "1.32.0",
+      "dependencies": {
+      }
+    },
+    {
+      "name": "shared-dep",
+      "version": "1.32.1",
+      "dependencies": {
+        "yanked-gem": ">= 0"
+      }
+    },
+    {
+      "name": "shared-dep",
+      "version": "1.32.2",
+      "dependencies": {}
+    }
+  ],
+  "limiting-dep": [
+    {
+      "name": "limiting-dep",
+      "version": "1.0.1",
+      "dependencies": {
+        "shared-dep": "<= 1.32.1"
+      }
+    },
+    {
+      "name": "limiting-dep",
+      "version": "1.0.2",
+      "dependencies": {
+        "shared-dep": "~> 1.0"
+      }
+    }
+  ],
+  "my-extras": [
+    {
+      "name": "my-extras",
+      "version": "0.1.0",
+      "dependencies": {
+      }
+    },
+    {
+      "name": "my-extras",
+      "version": "1.0.3",
+      "dependencies": {
+        "shared-dep": ">= 0",
+        "limiting-dep": "= 1.0.1"
+      }
+    }
+  ]
+}
