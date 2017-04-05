@@ -1,0 +1,39 @@
+{
+  "name": "something descriptive",
+  "index": "newest_version_conflicts",
+  "requested": {
+    "my-extras": "",
+    "my-app": "= 1.38.0"
+  },
+  "base": [],
+  "resolved": [
+    {
+      "name": "my-extras",
+      "version": "0.1.0",
+      "dependencies": []
+    },
+    {
+      "name": "my-app",
+      "version": "1.38.0",
+      "dependencies": [
+        {
+          "name": "shared-dep",
+          "version": "1.32.2",
+          "dependencies": []
+        },
+        {
+          "name": "limiting-dep",
+          "version": "1.0.2",
+          "dependencies": [
+            {
+              "name": "shared-dep",
+              "version": "1.32.2",
+              "dependencies": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": []
+}
