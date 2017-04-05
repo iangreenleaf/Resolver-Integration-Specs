@@ -1,5 +1,5 @@
 {
-  "name": "something descriptive",
+  "name": "considers all involved dependencies when backjumping",
   "index": "newest_version_conflicts",
   "requested": {
     "my-extras": "",
