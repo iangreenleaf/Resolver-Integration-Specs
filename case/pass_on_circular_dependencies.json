@@ -1,0 +1,81 @@
+{
+  "name": "can ignore circular dependencies caused by some version combinations when a good resolution exists",
+  "index": "some-versions-circular",
+  "requested": {
+    "fog-softlayer": "< 1.0",
+    "fog": "= 1.38.0"
+  },
+  "base": [
+
+  ],
+  "resolved": [
+    {
+      "name": "fog",
+      "version": "1.38.0",
+      "dependencies": [
+        {
+          "name": "fog-core",
+          "version": "1.43.0",
+          "dependencies": []
+        },
+        {
+          "name": "fog-json",
+          "version": "1.0.2",
+          "dependencies": [
+            {
+              "name": "fog-core",
+              "version": "1.43.0",
+              "dependencies": []
+            },
+            {
+              "name": "multi_json",
+              "version": "1.12.1",
+              "dependencies": [
+
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fog-softlayer",
+          "version": "0.0.1",
+          "dependencies": [
+            {
+              "name": "fog-core",
+              "version": "1.43.0",
+              "dependencies": []
+            },
+            {
+              "name": "fog-json",
+              "version": "1.0.2",
+              "dependencies": [
+                {
+                  "name": "fog-core",
+                  "version": "1.43.0",
+                  "dependencies": []
+                },
+                {
+                  "name": "multi_json",
+                  "version": "1.12.1",
+                  "dependencies": [
+
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ipaddress",
+          "version": "0.8.3",
+          "dependencies": [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+
+  ]
+}
